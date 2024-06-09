@@ -4,7 +4,12 @@
     box-sizing: border-box;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-decoration: none;
-    list-style: none;
+    list-style: none;   
+}
+
+body{
+    background-image: linear-gradient(#35C6CA, #357BCA, #35CA84);
+    background-size: cover;
 }
 
 .header{
@@ -51,7 +56,7 @@
 .home{
     width: 100%;
     min-height: 100vh;
-    background: rgb(139, 198, 233);
+    /* background: rgb(139, 198, 233);*/ 
     display: flex;
     align-items: center;
     gap: 7em;
@@ -67,7 +72,7 @@
 }
 
 .home-page-projects h2{
-    font-size: 30px;
+    font-size: 40px;
 }
 
 .home-page h1{
@@ -76,7 +81,7 @@
 }
 
 .home-page p{
-    font-size: 18px;
+    font-size: 22px;
     margin: 25px 0 30px;
 }
 
@@ -114,7 +119,7 @@
 }
 
 .pdesc{
-    font-size: 20px;
+    font-size: 22px;
 }
 
 .img{
